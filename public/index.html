@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOMOBILT.COM — Location de Voitures à Fès | Dacia Logan, Peugeot 208, Opel Corsa</title>
+    <meta name="description" content="TOMOBILT.COM, votre agence de location de voitures à Fès. Louez une Dacia Logan, Peugeot 208 ou Opel Corsa diesel modèle 2026 à partir de 250 DH/jour. Réservez maintenant!">
+    <meta name="keywords" content="location voiture Fès, louer voiture Maroc, Dacia Logan, Peugeot 208, Opel Corsa, TOMOBILT, location auto Fès">
+    <meta name="author" content="TOMOBILT.COM">
+    <meta property="og:title" content="TOMOBILT.COM — Location de Voitures à Fès">
+    <meta property="og:description" content="Louez une voiture diesel modèle 2026 à partir de 250 DH/jour à Fès.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ======= NAVIGATION ======= -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#accueil" class="nav-logo">
+                <span class="logo-tomo">TOMO</span><span class="logo-bilt">BILT</span><span class="logo-dot">.COM</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#flotte" class="nav-link">Notre Flotte</a></li>
+                <li><a href="#tarifs" class="nav-link">Tarifs</a></li>
+                <li><a href="#apropos" class="nav-link">À Propos</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="theme-switcher" id="themeSwitcher">
+                    <button class="theme-btn active" data-theme="dark" title="Mode Sombre">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                    </button>
+                    <button class="theme-btn" data-theme="light" title="Mode Clair">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    </button>
+                </li>
+            </ul>
+            <a href="tel:0675606633" class="nav-cta">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                Réserver
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ======= HERO SECTION ======= -->
+    <section class="hero" id="accueil">
+        <div class="hero-bg">
+            <img src="images/hero_banner.png" alt="Flotte TOMOBILT" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                Location de voitures à Fès
+            </div>
+            <h1 class="hero-title">
+                Roulez en toute <span class="gradient-text">liberté</span><br>
+                avec <span class="gradient-text">TOMOBILT</span>
+            </h1>
+            <p class="hero-subtitle">
+                Des véhicules diesel modèle 2026, fiables et économiques.<br>
+                À partir de <strong>250 DH/jour</strong> pour les locations longue durée.
+            </p>
+            <div class="hero-actions">
+                <a href="#flotte" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                    Découvrir la flotte
+                </a>
+                <a href="tel:0675606633" class="btn btn-secondary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                    Appeler maintenant
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Véhicules disponibles</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2026">0</span>
+                    <span class="stat-label">Modèles neufs</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="250">0</span>
+                    <span class="stat-label">DH/jour dès 7j</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= FEATURES BAR ======= -->
+    <section class="features-bar">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div>
+                        <h3>Fès, Maroc</h3>
+                        <p>Route Ain Chkef</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <div>
+                        <h3>Flexible</h3>
+                        <p>Courte & longue durée</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                    </div>
+                    <div>
+                        <h3>Diesel</h3>
+                        <p>Économique & fiable</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <div>
+                        <h3>Modèle 2026</h3>
+                        <p>Véhicules neufs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= FLEET SECTION ======= -->
+    <section class="fleet-section" id="flotte">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Notre Flotte</span>
+                <h2 class="section-title">Choisissez votre <span class="gradient-text">véhicule</span></h2>
+                <p class="section-desc">Trois modèles diesel 2026 disponibles en plusieurs coloris. Tous nos véhicules sont régulièrement entretenus pour votre confort et sécurité.</p>
+            </div>
+
+            <!-- Car 1: Dacia Logan -->
+            <div class="car-card" id="car-dacia">
+                <div class="car-card-inner">
+                    <div class="car-image-section">
+                        <div class="car-gallery">
+                            <div class="car-gallery-main">
+                                <img src="images/dacia_logan_noir.png" alt="Dacia Logan Noir" class="car-main-img active" id="dacia-img">
+                            </div>
+                            <div class="car-color-selector">
+                                <button class="color-btn active" data-car="dacia" data-color="noir" data-img="images/dacia_logan_noir.png" title="Noir" style="background: #1a1a1a"></button>
+                                <button class="color-btn" data-car="dacia" data-color="blanc" data-img="images/dacia_logan_blanc.png" title="Blanc" style="background: #f0f0f0; border: 2px solid #ddd;"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-info-section">
+                        <div class="car-badge">Berline</div>
+                        <h3 class="car-name">Dacia Logan</h3>
+                        <p class="car-model">Diesel — Modèle 01/2026</p>
+                        <div class="car-specs">
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                <span>Diesel</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                <span>2026</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                                <span>5 places</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 3 20 16 16 16"/></svg>
+                                <span>Climatisée</span>
+                            </div>
+                        </div>
+                        <div class="car-colors-label">
+                            <span>Couleurs disponibles :</span>
+                            <span class="color-name" id="dacia-color-name">Noir</span>
+                        </div>
+                        <div class="car-pricing">
+                            <div class="price-tag">
+                                <span class="price-amount">300 <small>DH</small></span>
+                                <span class="price-period">/ jour (< 7 jours)</span>
+                            </div>
+                            <div class="price-tag price-promo">
+                                <span class="price-amount">250 <small>DH</small></span>
+                                <span class="price-period">/ jour (≥ 7 jours)</span>
+                            </div>
+                        </div>
+                        <a href="tel:0675606633" class="btn btn-primary btn-full">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                            Réserver maintenant
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Car 2: Peugeot 208 -->
+            <div class="car-card" id="car-peugeot">
+                <div class="car-card-inner reverse">
+                    <div class="car-image-section">
+                        <div class="car-gallery">
+                            <div class="car-gallery-main">
+                                <img src="images/peugeot_208_noir.png" alt="Peugeot 208 Noir" class="car-main-img active" id="peugeot-img">
+                            </div>
+                            <div class="car-color-selector">
+                                <button class="color-btn active" data-car="peugeot" data-color="noir" data-img="images/peugeot_208_noir.png" title="Noir" style="background: #1a1a1a"></button>
+                                <button class="color-btn" data-car="peugeot" data-color="blanc" data-img="images/peugeot_208_blanc.png" title="Blanc" style="background: #f0f0f0; border: 2px solid #ddd;"></button>
+                                <button class="color-btn" data-car="peugeot" data-color="vert" data-img="images/peugeot_208_vert.png" title="Vert Pistache" style="background: #a8c97f"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-info-section">
+                        <div class="car-badge badge-popular">★ Populaire</div>
+                        <h3 class="car-name">Peugeot 208</h3>
+                        <p class="car-model">Diesel — Modèle 01/2026</p>
+                        <div class="car-specs">
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                <span>Diesel</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                <span>2026</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                                <span>5 places</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 3 20 16 16 16"/></svg>
+                                <span>Climatisée</span>
+                            </div>
+                        </div>
+                        <div class="car-colors-label">
+                            <span>Couleurs disponibles :</span>
+                            <span class="color-name" id="peugeot-color-name">Noir</span>
+                        </div>
+                        <div class="car-pricing">
+                            <div class="price-tag">
+                                <span class="price-amount">300 <small>DH</small></span>
+                                <span class="price-period">/ jour (< 7 jours)</span>
+                            </div>
+                            <div class="price-tag price-promo">
+                                <span class="price-amount">250 <small>DH</small></span>
+                                <span class="price-period">/ jour (≥ 7 jours)</span>
+                            </div>
+                        </div>
+                        <a href="tel:0675606633" class="btn btn-primary btn-full">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                            Réserver maintenant
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Car 3: Opel Corsa -->
+            <div class="car-card" id="car-opel">
+                <div class="car-card-inner">
+                    <div class="car-image-section">
+                        <div class="car-gallery">
+                            <div class="car-gallery-main">
+                                <img src="images/opel_corsa_noir.png" alt="Opel Corsa Noir" class="car-main-img active" id="opel-img">
+                            </div>
+                            <div class="car-color-selector">
+                                <button class="color-btn active" data-car="opel" data-color="noir" data-img="images/opel_corsa_noir.png" title="Noir" style="background: #1a1a1a"></button>
+                                <button class="color-btn" data-car="opel" data-color="blanc" data-img="images/opel_corsa_blanc.png" title="Blanc" style="background: #f0f0f0; border: 2px solid #ddd;"></button>
+                                <button class="color-btn" data-car="opel" data-color="rouge" data-img="images/opel_corsa_rouge.jpg" title="Rouge" style="background: #dc2626"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-info-section">
+                        <div class="car-badge">Citadine</div>
+                        <h3 class="car-name">Opel Corsa</h3>
+                        <p class="car-model">Diesel — Modèle 01/2026</p>
+                        <div class="car-specs">
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                <span>Diesel</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                <span>2026</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                                <span>5 places</span>
+                            </div>
+                            <div class="spec">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 3 20 16 16 16"/></svg>
+                                <span>Climatisée</span>
+                            </div>
+                        </div>
+                        <div class="car-colors-label">
+                            <span>Couleurs disponibles :</span>
+                            <span class="color-name" id="opel-color-name">Noir</span>
+                        </div>
+                        <div class="car-pricing">
+                            <div class="price-tag">
+                                <span class="price-amount">300 <small>DH</small></span>
+                                <span class="price-period">/ jour (< 7 jours)</span>
+                            </div>
+                            <div class="price-tag price-promo">
+                                <span class="price-amount">250 <small>DH</small></span>
+                                <span class="price-period">/ jour (≥ 7 jours)</span>
+                            </div>
+                        </div>
+                        <a href="tel:0675606633" class="btn btn-primary btn-full">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                            Réserver maintenant
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= PRICING SECTION ======= -->
+    <section class="pricing-section" id="tarifs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tarifs</span>
+                <h2 class="section-title">Des prix <span class="gradient-text">transparents</span></h2>
+                <p class="section-desc">Un tarif unique pour tous nos véhicules. Plus vous louez longtemps, plus vous économisez!</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <span class="pricing-duration-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </span>
+                        <h3>Courte durée</h3>
+                        <p>De 1 à 6 jours</p>
+                    </div>
+                    <div class="pricing-card-body">
+                        <div class="pricing-amount">
+                            <span class="price-big">300</span>
+                            <div class="price-meta">
+                                <span class="price-currency">DH</span>
+                                <span class="price-per">/ jour</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Tous modèles inclus
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Véhicule diesel économique
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Kilométrage selon accord
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Climatisation incluse
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Assistance en cas de panne
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <a href="tel:0675606633" class="btn btn-secondary btn-full">Réserver</a>
+                    </div>
+                </div>
+                <div class="pricing-card pricing-featured">
+                    <div class="pricing-badge-ribbon">Meilleure offre</div>
+                    <div class="pricing-card-header">
+                        <span class="pricing-duration-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        </span>
+                        <h3>Longue durée</h3>
+                        <p>7 jours ou plus</p>
+                    </div>
+                    <div class="pricing-card-body">
+                        <div class="pricing-amount">
+                            <span class="price-big">250</span>
+                            <div class="price-meta">
+                                <span class="price-currency">DH</span>
+                                <span class="price-per">/ jour</span>
+                            </div>
+                        </div>
+                        <div class="savings-badge">Économisez 50 DH/jour!</div>
+                        <ul class="pricing-features">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Tous modèles inclus
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Véhicule diesel économique
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Kilométrage selon accord
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Climatisation incluse
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                Assistance en cas de panne
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                <strong>Tarif réduit longue durée</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <a href="tel:0675606633" class="btn btn-primary btn-full">Réserver maintenant</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing Simulator -->
+            <div class="simulator-card">
+                <h3 class="simulator-title">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="12" y2="14"/></svg>
+                    Simulateur de prix
+                </h3>
+                <div class="simulator-body">
+                    <label class="simulator-label" for="days-input">Nombre de jours :</label>
+                    <div class="simulator-input-group">
+                        <button class="sim-btn" id="sim-minus" aria-label="Réduire">−</button>
+                        <input type="number" id="days-input" min="1" max="365" value="1" class="sim-input">
+                        <button class="sim-btn" id="sim-plus" aria-label="Augmenter">+</button>
+                    </div>
+                    <div class="simulator-result">
+                        <div class="sim-rate">
+                            <span class="sim-rate-label">Tarif appliqué :</span>
+                            <span class="sim-rate-value" id="sim-rate">300 DH/jour</span>
+                        </div>
+                        <div class="sim-total">
+                            <span class="sim-total-label">Total estimé :</span>
+                            <span class="sim-total-value" id="sim-total">300 DH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= ABOUT SECTION ======= -->
+    <section class="about-section" id="apropos">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">À Propos</span>
+                    <h2 class="section-title">Pourquoi choisir <span class="gradient-text">TOMOBILT</span> ?</h2>
+                    <p class="about-text">
+                        TOMOBILT.COM est votre partenaire de confiance pour la location de voitures à Fès. 
+                        Nous mettons à votre disposition une flotte de véhicules diesel modèle 2026, entretenus 
+                        avec le plus grand soin pour vous garantir confort, sécurité et tranquillité d'esprit.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <h4>Emplacement idéal</h4>
+                                <p>Situés sur la route d'Ain Chkef, nous sommes facilement accessibles depuis toute la ville de Fès.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <h4>Véhicules neufs</h4>
+                                <p>Tous nos véhicules sont des modèles 01/2026, garantissant fiabilité et modernité.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                            </div>
+                            <div>
+                                <h4>Économie de carburant</h4>
+                                <p>Nos véhicules diesel consomment peu, idéals pour les trajets en ville comme sur autoroute.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                            </div>
+                            <div>
+                                <h4>Prix transparents</h4>
+                                <p>Pas de frais cachés. Un tarif clair : 300 DH/jour ou 250 DH/jour dès 7 jours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-map-card">
+                        <div class="map-header">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Notre emplacement</span>
+                        </div>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13155.04!2d-4.95!3d34.03!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9f8b5a0d52d7d1%3A0x2b0!2sFes%2C+Morocco!5e0!3m2!1sfr!2sma!4v1700000000000!5m2!1sfr!2sma" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localisation TOMOBILT Fès">
+                        </iframe>
+                        <div class="map-address">
+                            <strong>1 Rue Sidi Ali, Route Ain Chkef, Fès</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= CONTACT SECTION ======= -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Contactez-<span class="gradient-text">nous</span></h2>
+                <p class="section-desc">N'hésitez pas à nous appeler pour réserver votre véhicule ou pour toute question.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card" id="contact-address">
+                    <div class="contact-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>Adresse</h3>
+                    <p>1 Rue Sidi Ali<br>Route Ain Chkef<br>Fès, Maroc</p>
+                </div>
+                <a href="tel:0535626748" class="contact-card" id="contact-phone-fix">
+                    <div class="contact-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                    </div>
+                    <h3>Téléphone fixe</h3>
+                    <p class="contact-phone">05 35 62 67 48</p>
+                </a>
+                <a href="tel:0675606633" class="contact-card" id="contact-phone-mobile">
+                    <div class="contact-icon icon-mobile">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                    </div>
+                    <h3>Mobile</h3>
+                    <p class="contact-phone">06 75 60 66 33</p>
+                </a>
+                <div class="contact-card" id="contact-hours">
+                    <div class="contact-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>Horaires</h3>
+                    <p>Lun - Sam : 8h - 20h<br>Dimanche : Sur RDV</p>
+                </div>
+            </div>
+            <div class="whatsapp-cta">
+                <a href="https://wa.me/212675606633" target="_blank" rel="noopener" class="whatsapp-btn" id="whatsapp-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Écrivez-nous sur WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#accueil" class="nav-logo">
+                        <span class="logo-tomo">TOMO</span><span class="logo-bilt">BILT</span><span class="logo-dot">.COM</span>
+                    </a>
+                    <p>Votre partenaire de confiance pour la location de voitures à Fès, Maroc.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#flotte">Notre Flotte</a></li>
+                        <li><a href="#tarifs">Tarifs</a></li>
+                        <li><a href="#apropos">À Propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Véhicules</h4>
+                    <ul>
+                        <li><a href="#car-dacia">Dacia Logan</a></li>
+                        <li><a href="#car-peugeot">Peugeot 208</a></li>
+                        <li><a href="#car-opel">Opel Corsa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>1 Rue Sidi Ali, Route Ain Chkef, Fès</p>
+                    <p><a href="tel:0535626748">Fixe : 05 35 62 67 48</a></p>
+                    <p><a href="tel:0675606633">Mobile : 06 75 60 66 33</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TOMOBILT.COM — Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======= FLOATING WHATSAPP BUTTON ======= -->
+    <a href="https://wa.me/212675606633" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp" id="floating-whatsapp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
